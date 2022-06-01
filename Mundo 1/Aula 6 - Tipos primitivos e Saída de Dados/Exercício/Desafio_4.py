@@ -1,0 +1,17 @@
+print("=================== DESAFIO 4 ===================")
+
+n = input("digite qualquer coisa aqui: ")
+
+print("Aqui vai uma lista referente as caracteristicas do que você escreveu anteriormente")
+print("======================================")
+print("O que você escreveu é Alfabetico? ", n.isalpha())
+print("======================================")
+print("O que você escreveu é Númerico? ", n.isnumeric())
+print("======================================")
+print("O que você escreveu é Alfanumerico?", n.isalnum())
+print("======================================")
+print("O que você escreveu é Maiusculo? ", n.isupper())
+print("======================================")
+print("O que você escreveu é Minusculo?", n.islower())
+print("======================================")
+print("O que você escreveu é Decimal?", n.isdecimal())
